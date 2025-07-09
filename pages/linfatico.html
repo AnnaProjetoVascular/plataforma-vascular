@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Linfático - Plataforma de Anatomia Vascular</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Sistema Linfático</h1>
+        <a href="selecionar-sistema.html" class="back-link">← Voltar</a>
+    </header>
+    
+    <main class="content-page">
+        <section class="content-text">
+            <h2>Anatomia do Sistema Linfático</h2>
+            <p>O sistema vascular linfático consiste em gânglios linfáticos e vasos linfáticos, através dos quais circula um fluido incolor, a linfa. O sistema linfático se comunica com o sistema vascular sanguíneo e está intimamente associado ao desenvolvimento. O ducto torácico é o principal vaso linfático do corpo, coletando linfa de todo o corpo, exceto do quadrante superior direito, que drena para o ducto linfático direito. Os vasos linfáticos transportam proteínas, gorduras e células imunológicas de volta à circulação sanguínea.</p>
+            
+            <p><strong>Fonte:</strong> Gray's Anatomy, 20ª edição, revisada por Warren H. Lewis, 1918.</p>
+            
+            <div class="copy-text-container">
+                <button id="copyTextBtn" class="copy-btn">Copiar texto</button>
+            </div>
+        </section>
+        
+        <section class="interactive-content">
+            <div class="image-container">
+                <div id="lymphaticModel" class="lymphatic-model">
+                    <div class="model-placeholder">
+                        <p>Modelo 3D Interativo do Sistema Linfático</p>
+                        <p>(Clique nos pontos para mais informações)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-container">
+                <h3>Vídeo Educativo</h3>
+                <div class="video-placeholder">
+                    <p>Vídeo do YouTube sobre sistema linfático</p>
+                </div>
+            </div>
+            
+            <div class="flowchart-container">
+                <h3>Fluxograma Interativo</h3>
+                <div id="lymphaticFlowChart" class="flowchart">
+                    <p>Arraste e conecte os nós para mostrar o fluxo linfático</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tools">
+            <button id="reportBtn" class="report-btn">Relatório de inconsistências</button>
+            <button id="importBtn" class="import-btn">Importar material</button>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,642 @@
+/* style.css - Plataforma de Anatomia Vascular */
+
+/* Importando Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Variáveis CSS */
+:root {
+    --primary-blue: #2196F3;
+    --primary-blue-dark: #1976D2;
+    --secondary-gray: #607D8B;
+    --light-gray: #CFD8DC;
+    --white: #FFFFFF;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #E0E0E0;
+    --shadow: 0 2px 10px rgba(0,0,0,0.1);
+    --shadow-hover: 0 4px 20px rgba(0,0,0,0.15);
+    --transition: all 0.3s ease;
+}
+
+/* Reset e configurações básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Cabeçalho principal */
+.main-header {
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-dark));
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.main-header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main-header h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.back-link {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.back-link:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* Página inicial */
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px);
+}
+
+#startButton {
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-dark));
+    color: var(--white);
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#startButton:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+/* Seleção de sistemas */
+.system-selection {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.system-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.system-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--primary-blue);
+}
+
+.system-card h3 {
+    color: var(--primary-blue);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.system-card p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Páginas de conteúdo */
+.content-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.content-text {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 30px;
+}
+
+.content-text h2 {
+    color: var(--primary-blue);
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content-text p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.copy-text-container {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.copy-btn {
+    background-color: var(--secondary-gray);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9em;
+}
+
+.copy-btn:hover {
+    background-color: #546E7A;
+}
+
+/* Conteúdo interativo */
+.interactive-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.image-container,
+.video-container,
+.flowchart-container {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+}
+
+.model-placeholder,
+.video-placeholder,
+.flowchart {
+    background: var(--light-gray);
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    color: var(--text-light);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container h3,
+.flowchart-container h3 {
+    color: var(--primary-blue);
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* Ferramentas */
+.tools {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.report-btn,
+.import-btn {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.report-btn:hover,
+.import-btn:hover {
+    background-color: var(--primary-blue-dark);
+    transform: translateY(-2px);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    background-color: var(--white);
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    animation: slideIn 0.3s ease;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: var(--text-light);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.close:hover {
+    color: var(--text-color);
+}
+
+/* Barra de busca global */
+.search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 15px 20px;
+    box-shadow: var(--shadow);
+    z-index: 100;
+    display: none;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 25px;
+    font-size: 1em;
+    outline: none;
+    transition: var(--transition);
+}
+
+.search-input:focus {
+    border-color: var(--primary-blue);
+}
+
+.search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    z-index: 101;
+}
+
+.suggestion-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: var(--transition);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.suggestion-item:hover {
+    background-color: var(--light-gray);
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { 
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2em;
+    }
+    
+    .main-header h2 {
+        font-size: 1em;
+    }
+    
+    .back-link {
+        position: static;
+        display: block;
+        margin-bottom: 10px;
+        transform: none;
+    }
+    
+    .systems-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .system-card {
+        padding: 20px;
+    }
+    
+    .content-page {
+        padding: 20px 15px;
+    }
+    
+    .content-text {
+        padding: 20px;
+    }
+    
+    .tools {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        padding: 20px;
+    }
+    
+    #startButton {
+        padding: 15px 30px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-header {
+        padding: 15px;
+    }
+    
+    .main-header h1 {
+        font-size: 1.5em;
+    }
+    
+    .system-card {
+        padding: 15px;
+    }
+    
+    .system-card h3 {
+        font-size: 1.2em;
+    }
+    
+    .content-text {
+        padding: 15px;
+    }
+    
+    .content-text h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Grid responsivo para conteúdo interativo em telas maiores */
+@media (min-width: 1024px) {
+    .interactive-content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+    
+    .image-container {
+        grid-column: 1 / -1;
+    }
+    
+    .video-container {
+        grid-column: 1;
+    }
+    
+    .flowchart-container {
+        grid-column: 2;
+    }
+}
+
+/* Estados de foco para acessibilidade */
+button:focus,
+.system-card:focus,
+.back-link:focus {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* Melhorias visuais */
+.system-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-blue), var(--primary-blue-dark));
+    border-radius: 12px 12px 0 0;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.system-card {
+    position: relative;
+}
+
+.system-card:hover::before {
+    opacity: 1;
+}
+
+
+
+/* Estilos para imagens anatômicas */
+.anatomy-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.anatomy-image:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-hover);
+}
+
+/* Ajustes para o container de imagens */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Responsividade para imagens */
+@media (max-width: 768px) {
+    .anatomy-image {
+        max-width: 100%;
+    }
+}
+
+/* Estilos para vídeos embarcados */
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Melhorias para acessibilidade */
+.anatomy-image:focus {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* Efeitos de loading para imagens */
+.anatomy-image {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+.anatomy-image[src] {
+    background: none;
+    animation: none;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+
+/* Melhorias para sugestões de busca */
+.suggestion-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.suggestion-item strong {
+    color: var(--primary-blue);
+    font-size: 1em;
+}
+
+.suggestion-item small {
+    color: var(--text-light);
+    font-size: 0.85em;
+    line-height: 1.3;
+}
+
+.suggestion-item:hover strong {
+    color: var(--primary-blue-dark);
+}
+
+/* Melhorias para o modal */
+.modal-content h3 {
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.modal-content button {
+    transition: var(--transition);
+}
+
+.modal-content button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Indicador de carregamento para termos */
+.loading-terms {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-light);
+}
+
+.loading-terms::after {
+    content: '...';
+    animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}
+

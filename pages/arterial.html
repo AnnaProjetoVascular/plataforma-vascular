@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Arterial - Plataforma de Anatomia Vascular</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Sistema Arterial</h1>
+        <a href="selecionar-sistema.html" class="back-link">← Voltar</a>
+    </header>
+    
+    <main class="content-page">
+        <section class="content-text">
+            <h2>Anatomia do Sistema Arterial</h2>
+            <p>As artérias são vasos que transportam sangue do coração para a periferia. Todas as artérias transportam sangue oxigenado, exceto a artéria pulmonar. A maior artéria do corpo é a aorta, dividida em quatro partes: aorta ascendente, arco aórtico, aorta torácica e aorta abdominal. As artérias são compostas por três camadas: uma camada interna ou endotelial (túnica íntima), uma camada média ou muscular (túnica média) e uma camada externa ou de tecido conjuntivo (túnica adventícia).</p>
+            
+            <p><strong>Fonte:</strong> Gray's Anatomy, 20ª edição, revisada por Warren H. Lewis, 1918.</p>
+            
+            <div class="copy-text-container">
+                <button id="copyTextBtn" class="copy-btn">Copiar texto</button>
+            </div>
+        </section>
+        
+        <section class="interactive-content">
+            <div class="image-container">
+                <div id="arterialModel" class="arterial-model">
+                    <div class="model-placeholder">
+                        <p>Modelo 3D Interativo do Sistema Arterial</p>
+                        <p>(Clique nos pontos para mais informações)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-container">
+                <h3>Vídeo Educativo</h3>
+                <div class="video-placeholder">
+                    <p>Vídeo do YouTube sobre sistema arterial</p>
+                </div>
+            </div>
+            
+            <div class="flowchart-container">
+                <h3>Fluxograma Interativo</h3>
+                <div id="arterialFlowChart" class="flowchart">
+                    <p>Arraste e conecte os nós para mostrar o fluxo arterial</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tools">
+            <button id="reportBtn" class="report-btn">Relatório de inconsistências</button>
+            <button id="importBtn" class="import-btn">Importar material</button>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

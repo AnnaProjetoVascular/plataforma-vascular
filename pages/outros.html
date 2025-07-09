@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros Sistemas - Plataforma de Anatomia Vascular</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Outros Sistemas Vasculares</h1>
+        <a href="selecionar-sistema.html" class="back-link">← Voltar</a>
+    </header>
+    
+    <main class="content-page">
+        <section class="content-text">
+            <h2>Outros Aspectos do Sistema Vascular</h2>
+            <p>Esta seção abrange aspectos adicionais do sistema vascular, incluindo circulações especializadas como a circulação portal hepática, circulação coronariana, circulação cerebral e circulação fetal. Também inclui patologias vasculares comuns, métodos de diagnóstico vascular e procedimentos terapêuticos. O sistema portal hepático é único porque o sangue passa por dois conjuntos de capilares antes de retornar ao coração, permitindo que o fígado processe nutrientes absorvidos do trato digestivo.</p>
+            
+            <p><strong>Fonte:</strong> Gray's Anatomy, 20ª edição, revisada por Warren H. Lewis, 1918.</p>
+            
+            <div class="copy-text-container">
+                <button id="copyTextBtn" class="copy-btn">Copiar texto</button>
+            </div>
+        </section>
+        
+        <section class="interactive-content">
+            <div class="image-container">
+                <div id="otherSystemsModel" class="other-systems-model">
+                    <div class="model-placeholder">
+                        <p>Modelo 3D Interativo de Outros Sistemas</p>
+                        <p>(Clique nos pontos para mais informações)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-container">
+                <h3>Vídeo Educativo</h3>
+                <div class="video-placeholder">
+                    <p>Vídeo do YouTube sobre circulações especializadas</p>
+                </div>
+            </div>
+            
+            <div class="flowchart-container">
+                <h3>Fluxograma Interativo</h3>
+                <div id="otherSystemsFlowChart" class="flowchart">
+                    <p>Arraste e conecte os nós para mostrar circulações especiais</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tools">
+            <button id="reportBtn" class="report-btn">Relatório de inconsistências</button>
+            <button id="importBtn" class="import-btn">Importar material</button>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,317 @@
+{
+  "terms": [
+    {
+      "name": "Aorta",
+      "category": "arterial",
+      "description": "A maior artéria do corpo humano, que se origina do ventrículo esquerdo do coração.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria carótida comum",
+      "category": "arterial", 
+      "description": "Artéria principal que fornece sangue para a cabeça e pescoço.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria subclávia",
+      "category": "arterial",
+      "description": "Artéria que fornece sangue para os membros superiores.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria femoral",
+      "category": "arterial",
+      "description": "Principal artéria da coxa, continuação da artéria ilíaca externa.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Veia cava superior",
+      "category": "venoso",
+      "description": "Grande veia que retorna sangue da parte superior do corpo para o átrio direito.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Veia cava inferior",
+      "category": "venoso",
+      "description": "Grande veia que retorna sangue da parte inferior do corpo para o átrio direito.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Veia jugular interna",
+      "category": "venoso",
+      "description": "Veia principal que drena sangue da cabeça e pescoço.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Veia safena magna",
+      "category": "venoso",
+      "description": "A veia superficial mais longa do corpo, localizada na perna.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Átrio direito",
+      "category": "coracao",
+      "description": "Câmara superior direita do coração que recebe sangue venoso.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Átrio esquerdo",
+      "category": "coracao",
+      "description": "Câmara superior esquerda do coração que recebe sangue oxigenado dos pulmões.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Ventrículo direito",
+      "category": "coracao",
+      "description": "Câmara inferior direita do coração que bombeia sangue para os pulmões.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Ventrículo esquerdo",
+      "category": "coracao",
+      "description": "Câmara inferior esquerda do coração que bombeia sangue para o corpo.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Válvula tricúspide",
+      "category": "coracao",
+      "description": "Válvula entre o átrio direito e ventrículo direito.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Válvula mitral",
+      "category": "coracao",
+      "description": "Válvula entre o átrio esquerdo e ventrículo esquerdo.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Ducto torácico",
+      "category": "linfatico",
+      "description": "Principal vaso linfático do corpo que drena a linfa para a circulação venosa.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Linfonodos",
+      "category": "linfatico",
+      "description": "Estruturas que filtram a linfa e contêm células imunológicas.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Baço",
+      "category": "linfatico",
+      "description": "Órgão linfático que filtra o sangue e armazena células sanguíneas.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Capilares",
+      "category": "microvascular",
+      "description": "Menores vasos sanguíneos onde ocorrem as trocas de gases e nutrientes.",
+      "page": "microvascular.html"
+    },
+    {
+      "name": "Arteríolas",
+      "category": "microvascular",
+      "description": "Pequenas artérias que se conectam aos capilares.",
+      "page": "microvascular.html"
+    },
+    {
+      "name": "Vênulas",
+      "category": "microvascular",
+      "description": "Pequenas veias que coletam sangue dos capilares.",
+      "page": "microvascular.html"
+    },
+    {
+      "name": "Circulação pulmonar",
+      "category": "outros",
+      "description": "Circulação entre o coração e os pulmões para oxigenação do sangue.",
+      "page": "outros.html"
+    },
+    {
+      "name": "Circulação sistêmica",
+      "category": "outros",
+      "description": "Circulação que leva sangue oxigenado do coração para todo o corpo.",
+      "page": "outros.html"
+    },
+    {
+      "name": "Sistema portal hepático",
+      "category": "outros",
+      "description": "Sistema venoso especial que conecta o trato digestivo ao fígado.",
+      "page": "outros.html"
+    },
+    {
+      "name": "Artéria coronária direita",
+      "category": "arterial",
+      "description": "Artéria que fornece sangue para o lado direito do coração.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria coronária esquerda",
+      "category": "arterial",
+      "description": "Artéria que fornece sangue para o lado esquerdo do coração.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria pulmonar",
+      "category": "arterial",
+      "description": "Artéria que leva sangue desoxigenado do coração para os pulmões.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Veias pulmonares",
+      "category": "venoso",
+      "description": "Veias que retornam sangue oxigenado dos pulmões para o coração.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Artéria braquial",
+      "category": "arterial",
+      "description": "Principal artéria do braço, continuação da artéria axilar.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria radial",
+      "category": "arterial",
+      "description": "Artéria do antebraço que pode ser palpada no pulso.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria ulnar",
+      "category": "arterial",
+      "description": "Artéria do antebraço que acompanha o osso ulna.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Veia basílica",
+      "category": "venoso",
+      "description": "Veia superficial do braço, frequentemente usada para punção venosa.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Veia cefálica",
+      "category": "venoso",
+      "description": "Veia superficial do braço que drena para a veia axilar.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Artéria poplítea",
+      "category": "arterial",
+      "description": "Continuação da artéria femoral atrás do joelho.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria tibial anterior",
+      "category": "arterial",
+      "description": "Artéria da perna que irriga a parte anterior da perna e pé.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Artéria tibial posterior",
+      "category": "arterial",
+      "description": "Artéria da perna que irriga a parte posterior da perna e pé.",
+      "page": "arterial.html"
+    },
+    {
+      "name": "Veia poplítea",
+      "category": "venoso",
+      "description": "Veia profunda localizada atrás do joelho.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Veia safena parva",
+      "category": "venoso",
+      "description": "Veia superficial menor da perna.",
+      "page": "venoso.html"
+    },
+    {
+      "name": "Timo",
+      "category": "linfatico",
+      "description": "Órgão linfático primário importante para o desenvolvimento de linfócitos T.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Medula óssea",
+      "category": "linfatico",
+      "description": "Local de produção de células sanguíneas e linfócitos B.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Vasos linfáticos",
+      "category": "linfatico",
+      "description": "Rede de tubos que transportam a linfa pelo corpo.",
+      "page": "linfatico.html"
+    },
+    {
+      "name": "Endotélio",
+      "category": "microvascular",
+      "description": "Camada interna dos vasos sanguíneos formada por células endoteliais.",
+      "page": "microvascular.html"
+    },
+    {
+      "name": "Barreira hematoencefálica",
+      "category": "microvascular",
+      "description": "Barreira seletiva entre o sangue e o sistema nervoso central.",
+      "page": "microvascular.html"
+    },
+    {
+      "name": "Anastomose",
+      "category": "outros",
+      "description": "Conexão entre vasos sanguíneos que permite circulação colateral.",
+      "page": "outros.html"
+    },
+    {
+      "name": "Pressão arterial",
+      "category": "outros",
+      "description": "Força exercida pelo sangue contra as paredes das artérias.",
+      "page": "outros.html"
+    },
+    {
+      "name": "Débito cardíaco",
+      "category": "coracao",
+      "description": "Volume de sangue bombeado pelo coração por minuto.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Sístole",
+      "category": "coracao",
+      "description": "Fase de contração do ciclo cardíaco.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Diástole",
+      "category": "coracao",
+      "description": "Fase de relaxamento do ciclo cardíaco.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Pericárdio",
+      "category": "coracao",
+      "description": "Membrana que envolve e protege o coração.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Miocárdio",
+      "category": "coracao",
+      "description": "Músculo cardíaco responsável pela contração do coração.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Endocárdio",
+      "category": "coracao",
+      "description": "Camada interna do coração que reveste as câmaras cardíacas.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Nó sinoatrial",
+      "category": "coracao",
+      "description": "Marcapasso natural do coração localizado no átrio direito.",
+      "page": "coracao.html"
+    },
+    {
+      "name": "Nó atrioventricular",
+      "category": "coracao",
+      "description": "Estrutura que retarda a condução elétrica entre átrios e ventrículos.",
+      "page": "coracao.html"
+    }
+  ]
+}
+
